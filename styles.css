@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #b9a7e6, #d1c4ff);
+    color: white;
+  }
+  
+  /* NAV */
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    background: #6a1b9a;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* PORTFOLIO BTN */
+  .portfolio-btn {
+    text-align: center;
+    background: #6a1b9a;
+    width: 200px;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 20px;
+  }
+  
+  /* HERO */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4a148c;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    color: #f48fb1;
+  }
+  
+  .hero-img img {
+    width: 150px;
+  }
+  
+  /* SKILLS */
+  .skills {
+    background: #7b1fa2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .folder {
+    width: 120px;
+    height: 80px;
+    background: #4a148c;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .folder::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 50px;
+    height: 20px;
+    background: #ab47bc;
+    border-radius: 5px;
+  }
+  
+  .card p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  /* ABOUT SECTION */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    color: white;
+    background: linear-gradient(135deg, #5e2ca5, #7e57c2);
+    position: relative;
+  }
+  
+  .about-left, .about-right {
+    width: 30%;
+  }
+  
+  .about-left h2,
+  .about-right h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-left p,
+  .about-right p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .about-center img {
+    width: 180px;
+  }
+  
+  /* DESIGN SECTION */
+  .design-section {
+    background: linear-gradient(135deg, #6a1b9a, #9c27b0);
+    padding: 40px 20px;
+  }
+  
+  .design-title {
+    background: #3b0a57;
+    padding: 20px 590px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+  
+  .design-title h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  /* CARDS */
+  .design-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border-radius: 20px;
+  }
+  
